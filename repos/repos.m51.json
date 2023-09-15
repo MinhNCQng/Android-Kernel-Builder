@@ -10,9 +10,8 @@
     "withKernelSU": false,
     "toolchains": [
       {
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "name": "proton-clang",
+        "url": "https://github.com/ZyCromerZ/Clang/releases/download/18.0.0-20230915-release/Clang-18.0.0-20230915.tar.gz",
+        "name": "clang",
         "binPath": ["./bin"]
       }
     ],
@@ -40,8 +39,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/anuragpindoriya/AnyKernel3/",
+      "branch": "m51"
     }
   }
 ]
