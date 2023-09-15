@@ -33,7 +33,8 @@
         "STRIP": "proton-clang/bin/llvm-strip",
         "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+        "LLVM_DIS": "proton-clang/bin/llvm-dis",
+        "LOCALVERSION": "An-Unknown-Samsung-M51"
       }
     },
     "AnyKernel3": {
