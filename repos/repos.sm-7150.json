@@ -66,17 +66,6 @@
       "externalCommand": {
         "CROSS_COMPILE": "clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-gnueabi-",
-        "LD": "clang/bin/ld.lld",
-        "AR": "clang/bin/llvm-ar",
-        "NM": "clang/bin/llvm-nm",
-        "OBJCOPY": "clang/bin/llvm-objcopy",
-        "OBJDUMP": "clang/bin/llvm-objdump",
-        "READELF": "clang/bin/llvm-readelf",
-        "OBJSIZE": "clang/bin/llvm-size",
-        "STRIP": "clang/bin/llvm-strip",
-        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "clang/bin/llvm-ar",
-        "LLVM_DIS": "clang/bin/llvm-dis",
         "LOCALVERSION": "-An-Unknown-M51-KernelSU-"
       }
     },
