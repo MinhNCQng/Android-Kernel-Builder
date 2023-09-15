@@ -1,50 +1,6 @@
 [
   {
     "kernelSource": {
-      "name": "An-Unknown-Samsung-M51",
-      "repo": "https://github.com/anuragpindoriya/android_kernel_samsung_sm6150",
-      "branch": "lineage-20",
-      "device": "m51",
-      "defconfig": "m51_defconfig"
-    },
-    "withKernelSU": false,
-    "toolchains": [
-      {
-        "url": "https://github.com/ZyCromerZ/Clang/releases/download/18.0.0-20230915-release/Clang-18.0.0-20230915.tar.gz",
-        "name": "clang",
-        "binPath": ["./bin"]
-      }
-    ],
-    "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-gnueabi-",
-        "LD": "clang/bin/ld.lld",
-        "AR": "clang/bin/llvm-ar",
-        "NM": "clang/bin/llvm-nm",
-        "OBJCOPY": "clang/bin/llvm-objcopy",
-        "OBJDUMP": "clang/bin/llvm-objdump",
-        "READELF": "clang/bin/llvm-readelf",
-        "OBJSIZE": "clang/bin/llvm-size",
-        "STRIP": "clang/bin/llvm-strip",
-        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "clang/bin/llvm-ar",
-        "LLVM_DIS": "clang/bin/llvm-dis",
-        "LOCALVERSION": "-An-Unknown-Samsung-M51-"
-      }
-    },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/anuragpindoriya/AnyKernel3/",
-      "branch": "m51"
-    }
-  },
-  {
-    "kernelSource": {
       "name": "An-Unknown-Samsung-M51-KernelSU",
       "repo": "https://github.com/anuragpindoriya/kernel_samsung_sm7150",
       "branch": "13",
