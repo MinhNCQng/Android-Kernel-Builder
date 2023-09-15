@@ -33,7 +33,7 @@
         "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "clang/bin/llvm-ar",
         "LLVM_DIS": "clang/bin/llvm-dis",
-        "LOCALVERSION": "-An-Unknown-Samsung-M51-"
+        "LOCALVERSION": "-An-Unknown-Samsung-M51-6150"
       }
     },
     "AnyKernel3": {
@@ -77,7 +77,7 @@
         "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "clang/bin/llvm-ar",
         "LLVM_DIS": "clang/bin/llvm-dis",
-        "LOCALVERSION": "-An-Unknown-M51-KernelSU-"
+        "LOCALVERSION": "-An-Unknown-M51-KernelSU-6150"
       }
     },
     "AnyKernel3": {
