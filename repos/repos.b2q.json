@@ -20,7 +20,7 @@
       "externalCommand": {
         "CROSS_COMPILE": "clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-gnueabi-",
-        "LOCALVERSION": "-An-Unknown-M51-KernelSU-"
+        "LOCALVERSION": "-An-Unknown-b2q-KernelSU-"
       }
     },
     "AnyKernel3": {
