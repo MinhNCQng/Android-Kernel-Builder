@@ -4,6 +4,7 @@
       "repo": "https://github.com/morosakubek2/android_kernel_samsung_b2q",
       "branch": "main",
       "device": "b2q_eur_openx"
+      "defconfig": "b2q_eur_openx_defconfig"
     },
     "withKernelSU": true,
      "toolchains": [
