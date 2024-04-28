@@ -201,11 +201,11 @@ jobs:
           
           # Check if withKernelSUWithKPROBES is true
           if [ "${{ env.withKernelSUWithKPROBES }}" == "true" ]; then
-            echo -e "CONFIG_KPROBES=y" >> arch/${{ env.arch }}/configs/${{ env.DEFCONFIG_NAME }}
-            echo -e "CONFIG_HAVE_KPROBES=y" >> arch/${{ env.arch }}/configs/${{ env.DEFCONFIG_NAME }}
-            echo -e "CONFIG_KPROBE_EVENTS=y" >> arch/${{ env.arch }}/configs/${{ env.DEFCONFIG_NAME }}
+            echo -e "CONFIG_KPROBES=y" >> arch/${{ env.arch }}/configs/vendor/${{ env.DEFCONFIG_NAME }}
+            echo -e "CONFIG_HAVE_KPROBES=y" >> arch/${{ env.arch }}/configs/vendor/${{ env.DEFCONFIG_NAME }}
+            echo -e "CONFIG_KPROBE_EVENTS=y" >> arch/${{ env.arch }}/configs/vendor/${{ env.DEFCONFIG_NAME }}
 
-            cat arch/${{ env.arch }}/configs/${{ env.DEFCONFIG_NAME }}
+            cat arch/${{ env.arch }}/configs/vendor/${{ env.DEFCONFIG_NAME }}
           fi
           
 
