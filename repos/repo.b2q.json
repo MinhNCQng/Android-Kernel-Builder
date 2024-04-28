@@ -1,11 +1,9 @@
-[
-  {
+[  {
     "kernelSource": {
-      "name": "r8q_Samsung_KenrlSU",
-      "repo": "https://github.com/anuragpindoriya/android_kernel_samsung_sm8250",
-      "branch": "prime",
-      "device": "r8q",
-      "defconfig": "r8q_defconfig"
+      "name": "kernel_samsung_b2q",
+      "repo": "https://github.com/morosakubek2/android_kernel_samsung_b2q",
+      "branch": "main",
+      "device": "b2q_eur_openx"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -35,9 +33,9 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "release": true,
+      "repo": "https://github.com/morosakubek2/AnyKernel3",
+      "branch": "b2q"
     }
   }
 ]
