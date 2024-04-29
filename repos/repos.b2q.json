@@ -21,7 +21,8 @@
     "binPath": ["bin"]
   },
   {
-    "url": "https://gitlab.com/IamCOD3X/snapdragon-clang.git",
+    "repo": "https://gitlab.com/IamCOD3X/snapdragon-clang.git",
+    "branch": "aosp-13",
     "name": "clang",
     "binPath": ["bin"]
   } 
