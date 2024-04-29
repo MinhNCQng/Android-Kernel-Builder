@@ -21,9 +21,9 @@
     "binPath": ["bin"]
   },
   {
-    "url": "https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240428-release/Clang-19.0.0git-20240428.tar.gz",
+    "url": "https://gitlab.com/IamCOD3X/snapdragon-clang.git",
     "name": "clang",
-    "binPath": ["./bin"]
+    "binPath": ["bin"]
   } 
     ],
     "ccache": true,
@@ -34,8 +34,7 @@
         "CROSS_COMPILE": "gcc64/aarch64-linux-android-",
         "CROSS_COMPILE_ARM32": "gcc/arm-linux-androideabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
-        "LLVM_IAS": "1",
-        "LLVM": "1"
+        "CONFIG_BUILD_ARM64_DT_OVERLAY": "y"
       }
     },
     "AnyKernel3": {
