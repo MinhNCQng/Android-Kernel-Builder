@@ -38,7 +38,6 @@
         "LLVM": "1"
       }
     }
-    ],
     "AnyKernel3": {
       "use": true,
       "release": true,
