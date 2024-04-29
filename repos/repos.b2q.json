@@ -15,8 +15,8 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "repo": "https://gitlab.com/mizdrake7/zyc_clang.git",
-    "branch": "master",
+    "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183b.git",
+    "branch": "11.0",
     "name": "clang",
     "binPath": ["bin"]
   } 
