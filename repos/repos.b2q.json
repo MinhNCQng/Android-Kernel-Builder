@@ -1,0 +1,51 @@
+[  {
+    "kernelSource": {
+      "name": "kernel_samsung_b2q",
+      "repo": "https://github.com/morosakubek2/android_kernel_samsung_b2q",
+      "branch": "main",
+      "device": "b2q_eur_openx",
+      "defconfig": "b2q_eur_openx_defconfig"
+    },
+    "withKernelSU": true,
+    "toolchains":  [
+    {
+      "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/",
+      "branch": "main",
+      "name": "gcc",
+      "binPath": ["bin"]
+    },
+      {
+        "url": "https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240428-release/Clang-19.0.0git-20240428.tar.gz",
+        "name": "clang",
+        "binPath": ["./bin"]
+      }
+    ],
+    "ccache": true,
+    "params": {
+      "ARCH": "arm64",
+      "CC": "clang/bin/clang",
+      "externalCommand": {
+        "CROSS_COMPILE": "clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-gnueabi-",
+        "LD": "clang/bin/ld.lld",
+        "AR": "clang/bin/llvm-ar",
+        "NM": "clang/bin/llvm-nm",
+        "OBJCOPY": "clang/bin/llvm-objcopy",
+        "OBJDUMP": "clang/bin/llvm-objdump",
+        "READELF": "clang/bin/llvm-readelf",
+        "OBJSIZE": "clang/bin/llvm-size",
+        "STRIP": "clang/bin/llvm-strip",
+        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "clang/bin/llvm-ar",
+        "LLVM_DIS": "clang/bin/llvm-dis",
+        "LOCALVERSION": "-An-Unknown-Samsung-M51-6150"
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/morosakubek2/AnyKernel3",
+      "branch": "b2q"
+    }
+  }
+]
