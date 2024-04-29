@@ -6,21 +6,30 @@
       "device": "b2q_eur_openx",
       "defconfig": "b2q_eur_openx_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
-      {
-        "url": "https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240428-release/Clang-19.0.0git-20240428.tar.gz",
-        "name": "clang",
-        "binPath": ["./bin"]
-      }
+  {    "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/tags/android-14.0.0_r0.68.tar.gz",
+    "name": "gcc",
+    "binPath": ["bin"]  },
+  {    "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/tags/android-14.0.0_r0.68.tar.gz",
+    "name": "gcc64",
+    "binPath": ["bin"]  },
+  {
+    "repo": "https://github.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183b.git",
+    "branch": "11.0",
+    "name": "clang",
+    "binPath": ["bin"]
+  } 
     ],
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "clang/bin/clang",
+      "CC": "clang",
       "externalCommand": {
-        "CROSS_COMPILE": "clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "clang/bin/arm-linux-gnueabi-",
+        "CROSS_COMPILE": "gcc64/aarch64-linux-android-",
+        "CROSS_COMPILE_ARM32": "gcc/arm-linux-androideabi-",
+        "CLANG_TRIPLE": "aarch64-linux-gnu-",
+        "CONFIG_BUILD_ARM64_DT_OVERLAY": "y",
         "LD": "clang/bin/ld.lld",
         "AR": "clang/bin/llvm-ar",
         "NM": "clang/bin/llvm-nm",
@@ -29,10 +38,8 @@
         "READELF": "clang/bin/llvm-readelf",
         "OBJSIZE": "clang/bin/llvm-size",
         "STRIP": "clang/bin/llvm-strip",
-        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "clang/bin/llvm-ar",
-        "LLVM_DIS": "clang/bin/llvm-dis",
-        "LOCALVERSION": "-An-Unknown-Samsung-M51-6150"
+        "LLVM_DIS": "clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
