@@ -8,18 +8,14 @@
     },
     "withKernelSU": true,
     "toolchains": [
-  {
-    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/",
-    "branch": "main",
+  {    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/",
+    "branch": "12.1.0_r26",
     "name": "gcc",
-    "binPath": ["bin"]
-  },
-  {
-    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/",
-    "branch": "main",
+    "binPath": ["bin"]  },
+  {    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/",
+    "branch": "12.1.0_r26",
     "name": "gcc64",
-    "binPath": ["bin"]
-  },
+    "binPath": ["bin"]  },
   {
     "repo": "https://github.com/xiangfeidexiaohuo/Snapdragon-LLVM.git",
     "branch": "10.0.9",
