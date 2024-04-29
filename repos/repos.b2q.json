@@ -37,7 +37,7 @@
         "LLVM_IAS": "1",
         "LLVM": "1"
       }
-    }
+    },
     "AnyKernel3": {
       "use": true,
       "release": true,
