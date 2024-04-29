@@ -22,7 +22,7 @@
   },
   {
     "repo": " https://bitbucket.org/thexperienceproject/yuki-clang.git",
-    "branch": "18.0.03",
+    "branch": "18.0.0",
     "name": "clang",
     "binPath": ["bin"]
   } 
