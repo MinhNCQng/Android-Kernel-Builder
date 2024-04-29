@@ -21,8 +21,8 @@
     "binPath": ["bin"]
   },
   {
-    "repo": "https://gitlab.com/IamCOD3X/snapdragon-clang.git",
-    "branch": "aosp-13",
+    "repo": " https://bitbucket.org/thexperienceproject/yuki-clang.git",
+    "branch": "18.0.03",
     "name": "clang",
     "binPath": ["bin"]
   } 
