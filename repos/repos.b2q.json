@@ -15,8 +15,8 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "repo": "https://gitlab.com/VoidUI/snapdragon-clang.git",
-    "branch": "aosp-13",
+    "repo": "https://github.com/xiangfeidexiaohuo/Snapdragon-LLVM.git",
+    "branch": "10.0.9",
     "name": "clang",
     "binPath": ["bin"]
   } 
