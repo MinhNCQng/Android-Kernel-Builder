@@ -15,8 +15,7 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "repo": "https://github.com/morosakubek2/clang-snapdragon.git",
-    "branch": "main",
+    "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r487747c.tar.gz",
     "name": "clang",
     "binPath": ["bin"]
   } 
