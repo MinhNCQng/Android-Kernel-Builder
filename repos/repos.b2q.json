@@ -39,7 +39,9 @@
         "OBJSIZE": "clang/bin/llvm-size",
         "STRIP": "clang/bin/llvm-strip",
         "LLVM_AR": "clang/bin/llvm-ar",
-        "LLVM_DIS": "clang/bin/llvm-dis"
+        "LLVM_DIS": "clang/bin/llvm-dis",
+        "LLVM": "1",
+        "LLVM_IAS": "1"
       }
     },
     "AnyKernel3": {
