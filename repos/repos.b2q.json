@@ -15,8 +15,8 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "repo": "https://gitlab.com/mizdrake7/zyc_clang.git",
-    "branch": "master",
+    "repo": "https://bitbucket.org/thexperienceproject/yuki-clang.git",
+    "branch": "18.0.0",
     "name": "clang",
     "binPath": ["bin"]
   } 
