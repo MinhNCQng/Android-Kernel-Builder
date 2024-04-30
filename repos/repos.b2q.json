@@ -15,8 +15,8 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "repo": "https://bitbucket.org/thexperienceproject/yuki-clang.git",
-    "branch": "18.0.0",
+    "repo": "https://gitlab.com/VoidUI/snapdragon-clang.git",
+    "branch": "aosp-13",
     "name": "clang",
     "binPath": ["bin"]
   } 
