@@ -15,8 +15,8 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "repo": "https://github.com/xiangfeidexiaohuo/Snapdragon-LLVM.git",
-    "branch": "10.0.9",
+    "repo": "https://github.com/morosakubek2/clang-snapdragon.git",
+    "branch": "main",
     "name": "clang",
     "binPath": ["bin"]
   } 
