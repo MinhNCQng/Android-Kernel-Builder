@@ -15,7 +15,7 @@
     "name": "gcc64",
     "binPath": ["bin"]  },
   {
-    "git": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git",
+    "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b.git",
     "branch": "lineage-20.0",
     "name": "clang",
     "binPath": ["bin"]
